@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Grid, Card, CardContent, Typography, CssBaseline } from '@mui/material';
-import AdminSidebar from '../../components/AdminSidebar';
+import AdminSidebar from '../../components/adminSidebar';
 import axios from 'axios';
 
 const AdminDashboard = () => {
