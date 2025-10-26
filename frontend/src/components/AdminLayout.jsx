@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Box, CssBaseline, Toolbar, Typography, IconButton } from '@mui/material';
-import AdminSidebar from './AdminSidebar';
+import AdminSidebar from './adminSidebar';
 import MenuIcon from '@mui/icons-material/Menu';
 import { useTheme, useMediaQuery } from '@mui/material';
 
