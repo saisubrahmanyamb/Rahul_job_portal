@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { Container, Typography, Paper, Button, Box } from '@mui/material';
 import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
@@ -14,7 +14,7 @@ const StyledPaper = styled(Paper)(({ theme }) => ({
   backgroundColor: tealLight,
 }));
 
-const StyledButton = styled(Button)(({ theme, color }) => ({
+const StyledButton = styled(Button)(({  color }) => ({
   backgroundColor: color === 'success' ? '#004d40' : '#d32f2f', // Dark Teal for accept, Red for reject
   color: '#ffffff',
   '&:hover': {
